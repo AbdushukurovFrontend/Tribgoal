@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+body{
+    box-sizing: border-box;
+}
+span{
+    color: rgb(54, 133, 251);
+}
+h1,h2,h3{
+    color: rgb(0, 34, 72);
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.info-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-header img{
+    cursor: pointer;
+}
+.info-header img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.info-header ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.info-header a{
+    text-decoration: none;
+    color: rgb(0, 34, 72);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.button-hover{
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 14px;
+    font-family: 'Frank Ruhl Libre', serif;
+    border: transparent;
+    background: -webkit-linear-gradient(45deg, rgb(19, 255, 201), rgb(0, 72, 93));
+background: -moz-linear-gradient(45deg, rgb(19, 255, 201), rgb(0, 72, 93));
+background: linear-gradient(45deg, rgb(19, 255, 201), rgb(0, 72, 93));
+cursor: pointer;
+}
+.button-hover:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    color: #fff;
+    -webkit-box-shadow: 7px 10px 45px -11px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 7px 10px 45px -11px rgba(34, 60, 80, 0.2);
+box-shadow: 7px 10px 45px -11px rgba(34, 60, 80, 0.2);
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.main-header img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+.main-header-text{
+    width: 523px;
+    height: 399px;
+}
+.main-header-text h6{
+    color: rgb(0, 179, 160);
+    font-size: 16px;
+font-weight: 500;
+font-family: 'Frank Ruhl Libre', serif;
+}
+.main-header-text h1{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 60px;
+font-weight: 550;
+margin-top: 10px;
+}
+.main-header-text p{
+    width: 400px;
+    font-size: 13px;
+font-weight: 100;
+line-height: 28px;
+font-family: 'Roboto', sans-serif;
+margin-top: 15px;
+font-style: italic;
+}
+.main-header-text button{
+    margin-top: 30px;
+}
+.info-section{
+    padding-top: 100px;
+}
+.info-section-main{
+    text-align: center;
+}
+
+.info-section-main h6{
+    color: rgb(0, 179, 160);
+    font-size: 16px;
+font-weight: 500;
+font-family: 'Frank Ruhl Libre', serif;
+}
+.info-section-main h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 40px;
+font-weight: 550;
+margin-top: 10px;
+}
+.info-section-main p{
+font-size: 14px;
+margin-top: 20px;
+text-align: center;
+font-style:oblique;
+}
+.info-section-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    margin-top: 100px;
+}
+.info-card{
+    text-align: center;
+    width: 270px;
+height: 295px;
+    box-sizing: border-box;
+border: 2px solid rgb(248, 248, 248);
+border-radius: 10px;
+background: rgb(255, 255, 255);
+padding: 10px;
+cursor: pointer;
+}
+
+.info-card:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    -webkit-box-shadow: 7px 10px 45px -11px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 7px 10px 45px -11px rgba(34, 60, 80, 0.2);
+box-shadow: 7px 10px 45px -11px rgba(34, 60, 80, 0.2);
+}
+.info-card h3{
+    font-size: 20px;
+font-weight: 500;
+font-family: 'Frank Ruhl Libre', serif;
+margin-top: 60px;
+}
+.info-card p{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+margin-top: 15px;
+}
+
+.bacground{
+    background: rgb(248, 248, 248);
+    width: 100%;
+    height: 835px;
+    margin-top: 100px;
+}
+.section-locate{
+    align-items: center;
+}
+.section-main{
+    padding-top: 70px;
+}
+
+.section-main h6{
+    color: rgb(0, 179, 160);
+    font-size: 16px;
+font-weight: 500;
+font-family: 'Frank Ruhl Libre', serif;
+}
+.section-main h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 40px;
+font-weight: 550;
+margin-top: 10px;
+}
+.section-main p{
+font-size: 14px;
+margin-top: 15px;
+font-style:oblique;
+}
+.section-image-cards{
+    padding-top: 70px;
+    display: flex;
+    gap: 20px;
+}
+
+.section-image-cards img:hover{
+transform: scale(1.1);
+transition: 0.3s;
+-webkit-box-shadow: 7px 10px 45px -11px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 7px 10px 45px -11px rgba(34, 60, 80, 0.2);
+box-shadow: 7px 10px 45px -11px rgba(34, 60, 80, 0.2);
+}
+
+
+.section img{
+    width: 100%;
+    margin-top: 90px;
+}
+.about-sectiion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.about-text{
+    width: 512px;
+height: 401px;
+border: 1px solid rgb(248, 248, 248);
+border-radius: 10px;
+align-items: center;
+}
+.about-text h6{
+    color: rgb(0, 179, 160);
+    font-size: 16px;
+font-weight: 500;
+font-family: 'Frank Ruhl Libre', serif;
+}
+
+
+.about-text h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 40px;
+font-weight: 550;
+margin-top: 20px;
+}
+.about-text p{
+    width: 409px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: oblique;
+    margin-top: 20px;
+}
+.about-text button{
+    margin-top: 20px;
+}
